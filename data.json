@@ -1,0 +1,18 @@
+window.koffieData = {
+    left: {
+        koffie: 63, //koffie
+        espresso: 36, //espresso
+        cappuccino: 31, //cappuccino
+        warmechoco: 9,  //warme choco
+        warmwater: 0,  //warm water
+        overig: 9	 //overig
+    },
+    right: {
+        koffie: 134,
+        espresso: 88,
+        cappuccino: 31,
+        warmechoco: 4,
+        warmwater: 2,
+        overig: 20
+    }
+};
