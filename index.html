@@ -1,46 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>D3-coffee-visualisation by dpwoert</title>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+	<script type="text/javascript" src="data.json"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<svg></svg>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>D3-coffee-visualisation</h1>
-        <p>Test with d3 and the force layout</p>
+	<div id="divide"></div>
 
-        <p class="view"><a href="https://github.com/dpwoert/d3-coffee-visualisation">View the Project on GitHub <small>dpwoert/d3-coffee-visualisation</small></a></p>
+	<div id="tooltip">
+		<div class="arrow"></div>
+		<div class="content"></div>
+	</div>
 
-
-        <ul>
-          <li><a href="https://github.com/dpwoert/d3-coffee-visualisation/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/dpwoert/d3-coffee-visualisation/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/dpwoert/d3-coffee-visualisation">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a name="d3-coffee-visualisation" class="anchor" href="#d3-coffee-visualisation"><span class="octicon octicon-link"></span></a>d3-coffee-visualisation</h1>
-
-<p>Test with d3 and the force layout</p>
-
-<hr><p>Davey van der Woert</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/dpwoert">dpwoert</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+	<div id="content">
+		<h1>Koffie @ Bluemango</h1>
+		<p>
+			Het verhaal achter koffie analytics is eenvoudig. Er zijn namelijk twee koffiezetapparaten op het kantoor. Het gerucht gaat dat er een van de twee beter koffie heeft. De oplossing? Koffie analytics!
+		</p>
+		<p>
+			Klik op de visualisatie om ervoor te kiezen om het geheel van beide koffiezetappareten te zien of beide koffiezetapparaten appart.
+		</p>
+		<p>
+			geinspireerd op: <a href="http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html?_r=0">New York Times visualisatie</a>
+		</p>
+		<p><i>Davey van der Woert</i></p>
+</body>
